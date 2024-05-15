@@ -9,13 +9,13 @@
 }
 main{
     width:75%;
-    margin:25px auto;
+    margin:20px auto;
     border:1px solid;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 #head,#footer{
     height: 100px;
-    background-color:#FFFF ;
+    background-color:white ;
 }
 #head img{
   
@@ -29,10 +29,10 @@ main{
     list-style-type: none;
     display:flex;
     justify-content: end;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 #nav li{
-    padding:5px;
+    padding:2px;
     
 }
 #nav a{
@@ -40,7 +40,7 @@ main{
     color:white;
     background-color: black;
     padding:10px;
-    font-size: 1.3em;
+    font-size: 1.4em;
     border-radius: 5px 5px 0 0;
 }
 #nav a:hover{
@@ -50,18 +50,18 @@ main{
 }
 #seccion{
     height: 50%;
-    padding:20px;
+    padding:10px;
     display:flex;
 }
 .articulo{
     width: 50%;
     margin:10px;
-    padding:20px;
+    padding:10px;
     border:1px solid;
     
 }
 .articulo img{
-    width: 100px;
+    width: 80px;
     float:left;
     margin-right: 20px;
 }
@@ -79,11 +79,11 @@ main{
     margin-bottom: 20px;
     padding:5px;
 }
-h2{color: #FFFF;}
-#html h2{background-color: #F2622E;}
-#css h2{background-color: #085CA6;}
-#js h2{background-color: #F2C53D;}
-#php h2{background-color: #6F77A6;}
+h2{color: white}
+#html h2{background-color: var(--color1);}
+#css h2{background-color: var(--color2);}
+#js h2{background-color: var(--color3);}
+#php h2{background-color: var(--color4);}
 
 #footer{
 display:flex;
@@ -96,7 +96,7 @@ border:1px solid;
 height: 100px;
 }
 #footer img{    
-    height: 70%;
+    height: 30%;
 }
 #texto{
     width:80%;
